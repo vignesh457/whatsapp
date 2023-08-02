@@ -1,0 +1,33 @@
+/* .message{
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 5px 15px;
+    margin-bottom: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: fit-content;
+} */
+.message{
+    position: relative;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 12px;
+    padding: 5px 15px;
+    margin-bottom: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: fit-content;
+    max-width: 80%;
+}
+.message-header{
+    color: orangered;
+    font-size: 10px;
+    font-weight:700;
+}
+.me{
+    background-color: #DCF8C6;
+    margin-left: auto;
+}
+.mh{
+    color: rgb(0, 132, 0);
+}

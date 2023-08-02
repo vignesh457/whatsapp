@@ -1,0 +1,93 @@
+.chat-ctn{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    overflow: scroll;
+}
+.chat-header{
+    width: 100%;
+    height: 65px;
+    background-color: #009688;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 3px 3px 0px 0px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.chat-body{
+    padding: 75px 30px 60px 30px;
+    width: 100%;
+    min-height: 100%;
+    background-image: url("../../images/whatsapp-background.png");
+}
+.chat-ctn::-webkit-scrollbar {
+    display: none;
+}
+.chat-footer{
+    width: 100%;
+    height: 60px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-feild{
+    width: 90%;
+    height: 75%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.input-feild input[type=text]{
+    flex: 1;
+    font-size: 20px;
+    border: none;
+    width: 0;
+    padding-left: 10px;
+}
+input[type=text]:focus{
+    outline: none;
+}
+form{
+    display: contents;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    color: rgb(45, 45, 45) !important;
+    padding: 1px 3px;
+    font-size: 30px !important;
+}
+.send{
+    width: 45px;
+    height: 45px;
+    background-color: #009688;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-icon{
+    text-align: center;
+    font-size: 45px !important;
+    margin: 0px 10px
+}
+.groupName{
+    flex: 1;
+}
+.trash{
+    color: rgba(232, 0, 0, 0.799) !important;
+    font-size: 40px !important;
+    margin-right: 10px;
+}
